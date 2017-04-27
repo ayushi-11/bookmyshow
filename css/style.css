@@ -1,0 +1,276 @@
+#marq img
+{
+height:250px;
+width:200px;
+}
+
+#hello
+{
+font-family:Comic Sans MS;
+color:white;
+margin-top:20px;
+margin-left:1400px;
+}
+#form
+{
+font-size:20px;
+text-align="center"
+}
+input.inputclass{
+border-width:2px;
+border-color:lightblue;
+border-radius:5px;
+border-style:groove;
+}
+
+
+* {
+	margin:0;
+	padding:0;
+	outline:0;
+}
+body {
+	font-size:12px;
+	line-height:20px;
+	font-family:Georgia, Helvetica, Sans-Serif;
+	color:#121212;
+	background:#0e2e41;
+}
+a {
+	color:#2f83b7;
+	text-decoration:underline;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:none;
+}
+a img {
+	border:0;
+}
+input, textarea, select {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+textarea {
+	overflow:auto;
+}
+#main h2 {
+	background:#000;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	font-weight:normal;
+	margin-bottom:18px;
+	padding-left:10px;
+}
+#main h2.bubble {
+	background:#000 url(images/h2-bubble.gif) left center no-repeat;
+	padding-left:44px;
+	margin-left:-34px;
+}
+
+#main h2.eye {
+	background:#000 url(images/h2-eye.gif) left center no-repeat;
+	margin:0 -34px;
+}
+#main h2.eye span {
+	float:left;
+	padding-left:34px;
+}
+#main h2.eye a {
+	float:right;
+	background:url(images/h2-seeall.gif) right center no-repeat;
+	padding-right:43px;
+	font-size:10px;
+	color:#ebebeb;
+	text-decoration:none;
+}
+
+#main h3 {
+	font-size:20px;
+	line-height:22px;
+	color:#121212;
+	font-weight:normal;
+}
+
+.cl {
+	display:block;
+	height:0;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+	clear:both;
+}
+.shell {
+	width:940px;
+	margin:0 auto;
+	position:relative;
+	padding:0 10px;
+}
+#header, #header .shell {
+	background:#1b557a url(images/header.gif) center top repeat-x;
+}
+#main {
+	background:url(images/main.gif) center top;
+}
+#main .bg-top {
+	background:url(images/main-top.gif) center top repeat-x;
+	width:100%;
+}
+#header .shell {
+	height:92px;
+	width:960px;
+	padding-top:28px;
+}
+#brm
+{
+float:right; 	
+}
+
+#navigation {
+	float:right;
+	display:inline;
+	padding:23px 11px 0 0;
+}
+
+#navigation ul li {
+	float:left;
+	display:inline;
+	font-family:Arial, Helvetica, Sans-Serif;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:27px;
+	line-height:16px;
+}
+#navigation ul li a {
+	color:#fff;
+	text-decoration:none;
+	text-shadow:#091a25 1px 1px 1px;
+}
+#navigation ul li a.active, #navigation ul li a:hover {
+	color:#81cfff;
+}
+#main .shell {
+	padding-top:15px;
+	padding-bottom:4px;
+}
+#main .button {
+	float:left;
+	height:17px;
+	line-height:17px;
+	padding:0 5px;
+	background-color:#2f83b7 !important;
+	font-size:10px;
+}
+#main .button {
+	color:#fff;
+	text-shadow:#0d2332 0 1px 0;
+	text-decoration:none;
+	margin:2px 2px 0 0;
+}
+#main .button:hover {
+	background-color:#1c5275 !important;
+}
+#main .rarr {
+	background:url(images/button-rarr.gif) right center no-repeat;
+	padding-right:11px;
+}
+#latest-projects {
+	padding-bottom:28px;
+}
+.latest-projects-list {
+	padding:18px 0 0 0;
+}
+.latest-projects-list ul {
+	list-style:none;
+}
+.latest-projects-list ul li {
+	float:left;
+	width:303px;
+	padding-right:15px;
+}
+.latest-projects-list ul li.last {
+	padding-right:0;
+}
+
+
+.blog-posts ul li {
+	display:block;
+	border-bottom:1px dotted #999999;
+	padding-bottom:16px;
+	margin-bottom:11px;
+}
+.blog-posts .data {
+	float:right;
+	width:400px;
+	padding:3px 42px 0 0;
+}
+#twitter {
+	float:left;
+	width:465px;
+}
+
+
+.twitter-posts ul li p {
+	padding-bottom:2px;
+}
+#flickr {
+	float:right;
+	width:430px;
+}
+
+.flickr-pics ul {
+	list-style:none;
+}
+.flickr-pics ul li {
+	float:left;
+	padding:0 4px 5px 0;
+}
+.flickr-pics ul li a {
+	float:left;
+	padding:2px;
+	background:#fff;
+	border:1px solid #eaeef1;
+}
+.flickr-pics ul li img {
+	display:block;
+	border:1px solid #000;
+	width:100px;
+	height:80px;
+}
+
+#footer, #footer .shell {
+	background:url(images/footer-top.gif) center top repeat-x;
+}
+#footer .top {
+	color:#55b6ef;
+	height:291px;
+	padding-top:24px;
+}
+#footer .top a {
+	color:#e3e3e3;
+}
+#footer .button {
+	color:#ebebeb;
+	text-shadow:#666 0 1px 0;
+	text-decoration:none;
+	background:#2f83b7;
+}
+#footer .button {
+	float:right;
+	height:17px;
+	line-height:17px;
+	padding:0 6px;
+	margin-top:5px;
+	font-size:10px;
+}
+#footer h2 {
+	float:left;
+	padding-left:26px;
+	font-size:17px;
+	color:#fff;
+	line-height:28px;
+	height:28px;
+	margin-bottom:16px;
+	font-weight:normal;
+}
